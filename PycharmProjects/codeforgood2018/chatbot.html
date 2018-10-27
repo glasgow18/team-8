@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<script>
+
+window.onscroll = function() {myFunction()};
+
+
+var header = document.getElementById("header");
+
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+ <head>
+<link rel="stylesheet" type="text/css" href="chatbotstyle.css">
+ </head>
+  <div id="header">
+   <div id="title">
+   <h1> Health in Mind Chatbot</h1>
+   </div>
+  </div>
+
+<body>
+
+</body>
+<div>
+
+</div>
+
+</html>
