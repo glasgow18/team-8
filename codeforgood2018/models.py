@@ -1,3 +1,4 @@
+import django
 from django.db import models
 
 class organisations(models.Model):
@@ -12,6 +13,7 @@ class organisations(models.Model):
 	ethnicity = models.CharField(max_length = 200, unique = True)
 	race = models.CharField(max_length = 200, unique = True)
 	typeOfSupport = []
+
 
 
 
