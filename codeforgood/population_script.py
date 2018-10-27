@@ -2,6 +2,7 @@ import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'codeforgood2018.settings')
 
 
+
 import django
 django.setup()
 from codeforgood.models import organisations
