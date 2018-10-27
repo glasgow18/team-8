@@ -12,10 +12,12 @@
     border-radius: 5px;
     padding: 10px;
 }
+
 .flex-container
 {
-display: flex;
+
 }
+
 .darker {
 float:right;
     border-color: #ccc;
