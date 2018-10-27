@@ -43,7 +43,11 @@
                                 onmouseout="shiftOut()">Send Message</button>
                               </div>
                              <div class='buttonclose'>
-                                <button class="close" onclick="closewindow()">Close Window </button>
+                                <button class="close" id="escapeButton"
+                                        onclick="closewindow()"
+                                        onmouseover="changeOut()"
+                                        onmouseout="changeOn()"
+                                >Close Window </button>
                               </div>
  </div>
 <script src="./js/jquery-1.11.3.js"></script>
