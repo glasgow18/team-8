@@ -74,7 +74,7 @@ line-height: 1.4em;
     float: right;
     width: 25%;
     height: 50px;
-    height: 25%;
+    height: 100%;
 }}
 
 .sticky {
@@ -113,6 +113,7 @@ body{
 background: white;
 }
 
+<<<<<<< HEAD
 #usermessage {
     margin-top: 150px;
 }
@@ -122,4 +123,12 @@ background: white;
     height: 200px;
     width: 400px; 
     outline: 2px orange solid;
+=======
+#usermessage
+{
+width: 100%;
+ margin-right: 10%;
+ margin-top: 30%;
+
+>>>>>>> 5e330832af1ba18a62f100fe2c01356a24c03cb9
 }
