@@ -70,8 +70,11 @@ line-height: 1.4em;
 }
 #messagefield
 {
-float:right;
-width: 50%; }
+    float: right;
+    width: 25%;
+    height: 50px;
+    height: 25%;
+}}
 
 .sticky {
   position: fixed;
@@ -109,4 +112,6 @@ background: white;
 #usermessage
 {
 width: 100%;
-margin-top:100px;}
+margin-top: 150px;
+height: 600px;
+margin-right: 10%;}
