@@ -1,5 +1,5 @@
-import django
 from django.db import models
+from django_mysql.models import ListCharField
 
 class organisations(models.Model):
 	name = models.CharField(max_length = 200, unique = True)
@@ -12,7 +12,8 @@ class organisations(models.Model):
 	sexuality = models.CharField(max_length = 200, unique = True)
 	ethnicity = models.CharField(max_length = 200, unique = True)
 	race = models.CharField(max_length = 200, unique = True)
-	typeOfSupport = []
+	location = models.CharField(max_length = 200, unique = True)
+	#typeOfSupport = ListCharField()
 
 
 
