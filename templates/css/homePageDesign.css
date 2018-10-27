@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 40%;
+    max-width: 50%;
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -22,6 +22,7 @@
 float:right;
     border-color: #ccc;
     background-color: #ddd;
+     min-width:32%;
 }
 
 .time-left {
@@ -73,7 +74,7 @@ line-height: 1.4em;
     float: right;
     width: 25%;
     height: 50px;
-    height: 25%;
+    height: 100%;
 }}
 
 .sticky {
@@ -103,15 +104,31 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+    position: relative;
+    top: 220px;
+    left: 175px;
 }
 
 body{
 background: white;
 }
 
+<<<<<<< HEAD
+#usermessage {
+    margin-top: 150px;
+}
+   
+#messagefield {
+    border:none;
+    height: 200px;
+    width: 400px; 
+    outline: 2px orange solid;
+=======
 #usermessage
 {
 width: 100%;
-margin-top: 150px;
-height: 600px;
-margin-right: 10%;}
+ margin-right: 10%;
+ margin-top: 30%;
+
+>>>>>>> 5e330832af1ba18a62f100fe2c01356a24c03cb9
+}
