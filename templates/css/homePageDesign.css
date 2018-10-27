@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
 .chatIcon {
     width:62;
     float: left;
 }
 
 .container {
+    width: 40%;
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -11,6 +14,7 @@
 }
 
 .darker {
+float:right;
     border-color: #ccc;
     background-color: #ddd;
 }
@@ -44,3 +48,39 @@ img.right {
     margin-left: 20px;
     margin-right:0;
 }
+
+#header
+{
+  padding: 10px 16px;
+  background-color: orange;
+  margin-bottom: 50px;
+  color: #f1f1f1;
+}
+
+h1{
+font-family: 'Varela Round', sans-serif;
+font-weight: normal;
+margin: 0;
+text-align:center;
+color: white;
+line-height: 1.4em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+body{
+background: white;
+}
+
+#usermessage
+{
+margin-top:100px;}
