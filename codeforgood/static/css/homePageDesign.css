@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+.chatIcon {
+    width:62;
+    float: left;
+}
+
+.container {
+    max-width: 50%;
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.flex-container
+{
+
+}
+
+.darker {
+float:right;
+    border-color: #ccc;
+    background-color: #ddd;
+     min-width:32%;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.time-right {
+    float: right;
+    color: #999;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+img.right {
+    float: right;
+    margin-right:0;
+}
+
+#header
+{
+  padding: 10px 16px;
+  background-color: orange;
+  margin-bottom: 3%;
+  font-size: 2em;
+  color: #f1f1f1;
+}
+
+h1{
+font-family: 'Varela Round', sans-serif;
+font-weight: normal;
+font-size:2em;
+margin: 0;
+text-align:center;
+color: white;
+line-height: 1.4em;
+}
+#messagefield
+{
+    float: right;
+    width: 25%;
+    height: 50px;
+    height: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.btn btn-primary
+{
+float: right;
+}
+
+button {
+    font-family: 'Varela Round', sans-serif;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    position: relative;
+    top: 220px;
+    left: 175px;
+}
+
+body{
+background: white;
+}
+
+
+#usermessage {
+    margin-top: 150px;
+}
+   
+#messagefield {
+    border:none;
+    height: 200px;
+    width: 400px; 
+    outline: 2px orange solid;
+=======
+#usermessage
+{
+width: 100%;
+ margin-right: 10%;
+ margin-top: 30%;
+
+}
