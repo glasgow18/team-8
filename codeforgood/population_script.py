@@ -11,7 +11,7 @@ def add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, a
     organisation = organisations.objects.get_or_create(name = name, description = description,
                                                        emailAddress = emailAddress,phoneNumber = phoneNumber, age = age,
                                                        gender = gender, sexuality = sexuality, ethnicity = ethnicity,
-                                                       race  = race, typeOfSupport = typeOfSupport, location = location)
+                                                       race  = race, location = location, typeOfSupport = typeOfSupport)
     organisation.url = websiteUrl
     organisation.save()
 
@@ -20,9 +20,15 @@ def population():
     rowan = add_organisation(name = 'rowan', description = 'The ROWAN project encourages people to enjoy the benefits of being close to nature and the sense of wellbeing it offers.',
                              websiteUrl = 'http://www.health-in-mind.org.uk/services/rowan_respect_our_woodland_and_nature/d16/#parentHorizontalTab1',
                              emailAddress = 'phil.morris@orchardcentreservices.org.uk', phoneNumber = '0131 663 1616' ,
-                             age = 0, gender = 'any', sexuality = 'any', ethnicity = 'any', race = 'any', typeOfSupport = 'walks, bushcraft, conservation, art')
-    equalAccess = add_organisation(name = 'equal access', description = 'At Health in Mind,  we understand  how cultural differences can influence our feelings and emotions and how we respond to the challenges in our lives.',
-                                   websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
+                             age = 0, gender = 'any', sexuality = 'any', ethnicity = 'any', race = 'any', typeOfSupport = 'walks, bushcraft, conservation, art',
+                             location = 'midlothian')
+    rowan.save()
+
+    '''
+    equalAccessMidlothian = add_organisation(name = 'equal access', description = 'At Health in Mind,  we understand  how cultural differences can influence our feelings and emotions and how we respond to the challenges in our lives.',
+                                   websiteUrl = 'http://www.health-in-mind.org.uk/services/equal_access_supporting_people_from_minority_and_ethnic_communities/d9/',
+                                   emailAddress = 'monika.dyczko@health-in-mind.org.uk', phoneNumber = '07776594315.', age = 16, gender = 'any',
+                                             sexuality = 'any', ethnicity = 'minority', race = 'any', typeOfSupport = 'depression, isolation, anxiety, unhapiness')
     midlothianWellbeingAccessPoint = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
     reDiscover = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
     dayService = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
@@ -55,7 +61,7 @@ def population():
     wellbeingGateway = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
     communityMentalhealthAndWellbeing = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
     westSpace = add_organisation(name, description, websiteUrl, emailAddress, phoneNumber, age, gender, sexuality, ethnicity, race, typeOfSupport))
-
+    '''
 
 
 
