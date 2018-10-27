@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 40%;
+    max-width: 50%;
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
@@ -22,6 +22,7 @@
 float:right;
     border-color: #ccc;
     background-color: #ddd;
+     min-width:32%;
 }
 
 .time-left {
@@ -103,15 +104,22 @@ button {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+    position: relative;
+    top: 220px;
+    left: 175px;
 }
 
 body{
 background: white;
 }
 
-#usermessage
-{
-width: 100%;
-margin-top: 150px;
-height: 600px;
-margin-right: 10%;}
+#usermessage {
+    margin-top: 150px;
+}
+   
+#messagefield {
+    border:none;
+    height: 200px;
+    width: 400px; 
+    outline: 2px orange solid;
+}
