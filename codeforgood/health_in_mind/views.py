@@ -27,10 +27,10 @@ def start(request):
                 return redirect('http://breathingspace.scot/?fbclid=IwAR0-9xPonE8ww577E4YyahD4b921XOolWNXSU4XuGNDTj7O6NFEB3HVprTE')
         age,gender=user_input.split(" ")
         if (gender=="female"):
-            numeric_gender="1"
+            numeric_gender="2"
         elif(gender=="male"):
-            numeric_gender="0"
-        else:numeric_gender="2"
+            numeric_gender="1"
+        else:numeric_gender="0"
         print(age,gender)
 
         target=organisations.objects.filter(gender=numeric_gender)
