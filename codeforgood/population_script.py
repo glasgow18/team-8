@@ -13,10 +13,12 @@ def eachOrganisation(name, description, websiteUrl, emailAddress, phoneNumber, m
                      location, key_words):
     organisation = organisations.objects.get_or_create(name=name, description=description,
                                                        websiteUrl=websiteUrl, emailAddress=emailAddress,
-                                                       phoneNumber=phoneNumber, max_age=max_age,
+                                                       phoneNumber=phoneNumber, min_age=min_age,max_age=max_age,
                                                        contact_name=contact_name, location=location,
-                                                       key_words=key_words)
+                                                       key_words=key_words)[0]
+    print(organisation)
     organisation.save()
+    print(organisation)
     return organisation
 
 
@@ -26,6 +28,8 @@ def populate():
                              'http://www.hesalth-in-mind.org.uk/services/rowan_respect_our_woodland_and_nature/d16/#parentHorizontalTab1',
                              'phil.morris@orchardcentreservices.org.uk',
                              '01316631616', '16', '100', 'Phil Morris', '0', 'midlothian', 'exercise, art, environment')
+    rowan.save()
 
-
-populate()
+if __name__ == '__main__':
+        print("Starting Bark population scripts...")
+        populate()
