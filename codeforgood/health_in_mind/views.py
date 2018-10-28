@@ -7,7 +7,7 @@ from health_in_mind.models import organisations
 
 
 # Create your views here.
-
+org = organisations.objects.values()
 
 
 def start(request):

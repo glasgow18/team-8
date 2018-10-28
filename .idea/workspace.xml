@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49196e44-b1f7-4a39-b1c2-b7c9124d94d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/codeforgood/codeforgood/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeforgood/codeforgood/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforgood/health_in_mind/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeforgood/health_in_mind/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforgood/templates/chatbot.html" beforeDir="false" afterPath="$PROJECT_DIR$/codeforgood/templates/chatbot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforgood/templates/css/homePageDesign.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/homePage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/jquery-1.11.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2805" />
+          <entry key="py" value="2870" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2805" />
+          <entry key="Python" value="2870" />
         </counts>
       </usages-collector>
     </session>
@@ -52,11 +47,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/codeforgood/health_in_mind/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1540698391080" expanded="true" signature="260:263" ph="..." />
+                <marker date="1540698849705" expanded="true" signature="260:263" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,8 +89,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="300" />
-    <option name="y" value="55" />
+    <option name="x" value="551" />
+    <option name="y" value="56" />
     <option name="width" value="1009" />
     <option name="height" value="789" />
   </component>
@@ -199,7 +194,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="300" y="55" width="1009" height="789" extended-state="0" />
+    <frame x="638" y="56" width="1009" height="789" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24198553" />
@@ -207,8 +202,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998565" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998565" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39885223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -304,11 +299,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/codeforgood/health_in_mind/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1540698391080" expanded="true" signature="260:263" ph="..." />
+            <marker date="1540698849705" expanded="true" signature="260:263" ph="..." />
           </folding>
         </state>
       </provider>
