@@ -41,6 +41,7 @@ def populate():
 
     midlothian_wellbeing = eachOrganisation('midlothian wellbeing access point',
       'If you’re feeling low and stressed and want to do something about it, there’s a service that couldn’t be easier to access – you just turn up.',
+      'http://www.health-in-mind.org.uk/services/wellbeing_access_point/d99/#parentHorizontalTab1',
       'laurence.hawkings@health-in-mind.org.uk',
       '0131 536 8981', 18, 65, 'Lawrence Hawkings',"0", 'midlothian',
       'depression, anxiety, low mood, unhapy')
@@ -49,6 +50,7 @@ def populate():
 
     day_service = eachOrganisation('day service',
       'Health in Mind offers a wide range of activities and groups from our Orchard Centre in Bonnyrigg and in other community buildings in Midlothian.',
+      'http://www.health-in-mind.org.uk/services/day_service/d46/',
       'reception@orchardcentreservices.org.uk',
       '0131 663 1616', 16, 100, 'The Orchard Centre', "0", 'midlothian',
       'social, socialise, go out')
@@ -57,6 +59,7 @@ def populate():
 
     out_of_hours = eachOrganisation('out of hours',
       'Health in Mind\'s base in Bonnyrigg is the Orchard Centre and it offers a varied programme of activities that are updated every month.',
+      'http://www.health-in-mind.org.uk/services/out_of_hours_service/d69/',
       'contactus@health-in-mind.org.uk',
       '0131 663 1616', 16, 100, 'The Orchard Centre',"0", 'midlothian',
       'social, socialise, art, arts')
@@ -65,6 +68,7 @@ def populate():
 
     mens_share = eachOrganisation('men\'s share',
       'The Men\'s SHARE Project provides an accessible comfortable space which offers social and emotional support.',
+      'http://www.health-in-mind.org.uk/services/mens_share/d40/',
       'contactus@health-in-mind.org.uk',
       '0131 663 1616', 18, 100, 'The Orchard Centre', "1", 'midlothian',
       'depression, sad, lonely, unhappy')
