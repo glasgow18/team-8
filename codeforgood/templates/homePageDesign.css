@@ -1,21 +1,37 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
-
+html
+{
+height:100%;
+}
 .chatIcon {
     width:62;
     float: left;
+}
+
+#login
+{
+margin:auto;
+text-align:center;
+margin-bottom:5%;
+}
+p
+{
+font: 20px Monaco,monospace;
 }
 
 .container {
     max-width: 50%;
     border: 2px solid #dedede;
     background-color: #f1f1f1;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 10px;
 }
 
 .flex-container
 {
-
+height:30%;
+margin-bottom:10%;
+overflow-y: scroll;
 }
 
 .darker {
@@ -107,29 +123,29 @@ button {
     cursor: pointer;
     border-radius: 8px;
     position: relative;
-    top: 220px;
-    left: 175px;
 }
 
 body{
 background: white;
+height: 100%;
 }
 
-
-#usermessage {
-    margin-top: 150px;
-}
-   
 #messagefield {
     border:none;
     height: 200px;
     width: 400px; 
     outline: 2px orange solid;
 =======
-#usermessage
-{
-width: 100%;
- margin-right: 10%;
- margin-top: 30%;
 
+
+#containerBody
+{
+width: 90%;
+height: 100%;
+margin: auto;
+}
+
+#escapeButton
+{
+width: 100%;}
 }
