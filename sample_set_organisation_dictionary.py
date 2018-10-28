@@ -144,9 +144,6 @@ def collectDemographics():
 		
 
 
-	
-
-
 def check():
 	check = True
 
