@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-{% load static %}
+{% load staticfiles %}
+
 <html>
  <head>
 <link rel="stylesheet" type="text/css" href="{% static 'homePageDesign.css' %}" rel="stylesheet">">
@@ -28,7 +29,6 @@
 
     <div class="container darker">
         <img src="{% static "symbolOfCharity.png" %}" class="chatIcon right">
- class="chatIcon right">
     <p> This is to present bot reply </p>
     <span class="time-right">python should get the time</span>
     </div>
@@ -60,6 +60,7 @@
 </div>
 <script src="{%static "jquery-1.11.3.js"%}"></script>
 <script  src="{%static "homePage.js"%}"></script>
+
 </body>
 
 </html>
