@@ -16,6 +16,7 @@ function changeOut() {
 
 function closewindow()
 {
+alert("attempt window close!");
 window.close();
 }
 
