@@ -14,7 +14,21 @@ function changeOut() {
     document.getElementById("escapeButton").style.background='#FFFF00';
 }
 
+
+function sendMessage() {
+	const value = DOM.input.value;
+	if (value === '') {
+		return;
+	}
+	DOM.input.value = '';
+	drone
+}
+
+
+
 function closewindow()
 {
 window.close()
 }
+
+
