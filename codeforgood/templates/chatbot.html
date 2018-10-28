@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+ <head>
+<link rel="stylesheet" type="text/css" href="homePageDesign.css">
+ </head>
+  <div id="header" style="background-color: orange">
+   <b><div id="title">
+       <h1> Health in Mind Chatbot</h1></b>
+   </div>
+  </div>
+
+<body>
+<head>
+    <title>Health in Mind Chatbot</title>
+    <!--CSS Files-->
+    <link rel='stylesheet' type='text/css' href='./css/homePageDesign.css'>
+</head>
+<body>
+<div class ='flex-container'>
+    <div class="container">
+    <img src="./ImageSource/symbolOfCharity.png" class="chatIcon">
+    <p> Hello! This is a simulation of bot reply. I will ask you your age, location and situation and provide an output based on the results you give me. </p>
+    <span class="time-left">python should get the time</span>
+    </div>
+
+    <div class="container darker">
+    <img src="./ImageSource/symbolOfCharity.png" class="chatIcon right">
+    <p> This is to present bot reply </p>
+    <span class="time-right">python should get the time</span>
+    </div>
+</div>
+</body>
+<form id="userinput" method ="post" url="">
+
+ <div id="usermessage">
+  <input type='text' name='message' id="messagefield" class="form-control" placeholder="Type your message...">
+                              <div class='isend'>
+                                <button class='btn btn-primary'
+                                id="start" 
+                                style="float:right" 
+                                onmouseover="shiftOn()" 
+                                onmouseout="shiftOut()">Send Message</button>
+                              </div>
+                             <div class='buttonclose'>
+                                <button class="close" id="escapeButton"
+                                        onclick="closewindow()"
+                                        onmouseover="changeOut()"
+                                        onmouseout="changeOn()"
+                                >Close Window </button>
+                              </div>
+ </div>
+<script src="./js/jquery-1.11.3.js"></script>
+<script  src="./js/homePage.js"></script>
+
+
+</html>
