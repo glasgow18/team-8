@@ -12,6 +12,7 @@ height:100%;
 {
 margin:auto;
 text-align:center;
+margin-bottom:5%;
 }
 p
 {
@@ -140,4 +141,9 @@ height: 100%;
 width: 90%;
 height: 100%;
 margin: auto;
+}
+
+#escapeButton
+{
+width: 100%;}
 }
