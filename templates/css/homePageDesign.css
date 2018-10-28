@@ -29,7 +29,8 @@ font: 20px Monaco,monospace;
 
 .flex-container
 {
-height:40%;
+height:30%;
+margin-bottom:10%;
 }
 
 .darker {
