@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-
+{% load static %}
 <html>
  <head>
-<link rel="stylesheet" type="text/css" href="homePageDesign.css">
+<link rel="stylesheet" type="text/css" href="{% static 'homePageDesign.css' %}" rel="stylesheet">">
  </head>
   <div id="header" style="background-color: orange">
    <b><div id="title">
@@ -14,25 +14,27 @@
 <head>
     <title>Health in Mind Chatbot</title>
     <!--CSS Files-->
-    <link rel='stylesheet' type='text/css' href='./css/homePageDesign.css'>
+
 </head>
 <body>
 <div id="containerBody" style="margin:auto; height:100%; width:90%;">
 <div class ='flex-container'>
     <div class="container">
-    <img src="./ImageSource/symbolOfCharity.png" class="chatIcon">
+        <img src="{% static "symbolOfCharity.png" %}" class="chatIcon">
+
     <p> Hello! This is a simulation of bot reply. I will ask you your age, location and situation and provide an output based on the results you give me. </p>
     <span class="time-left">python should get the time</span>
     </div>
 
     <div class="container darker">
-    <img src="./ImageSource/symbolOfCharity.png" class="chatIcon right">
+        <img src="{% static "symbolOfCharity.png" %}" class="chatIcon right">
+ class="chatIcon right">
     <p> This is to present bot reply </p>
     <span class="time-right">python should get the time</span>
     </div>
 
 </div>
-<form id="userinput" style="height: 30%" method ="post" url="">
+<form id="userinput" style="height: 30%" method ="post">
 
  <div id="usermessage" style=height:80%;">
   <input type='text' name='message' id="messagefield" class="form-control" placeholder="Type your message...">
@@ -43,7 +45,7 @@
                                 id="start"
                                 style="float:right"
                                 onmouseover="shiftOn()"
-                                onmouseout="shiftOut()">Send Message</button>
+                                onmouseout="shiftOut()" onclick="addmessage()">Send Message</button>
 
                               </div>
 </form>
@@ -56,8 +58,8 @@
                               </div>
  </footer>
 </div>
-<script src="./js/jquery-1.11.3.js"></script>
-<script  src="./js/homePage.js"></script>
+<script src="{%static "jquery-1.11.3.js"%}"></script>
+<script  src="{%static "homePage.js"%}"></script>
 </body>
 
 </html>

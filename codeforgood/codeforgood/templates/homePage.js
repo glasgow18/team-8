@@ -16,5 +16,11 @@ function changeOut() {
 
 function closewindow()
 {
-window.close()
+alert("attempt window close!");
+window.close();
+}
+
+function addmessage()
+{
+  print(document.getElementById("message").value);
 }
